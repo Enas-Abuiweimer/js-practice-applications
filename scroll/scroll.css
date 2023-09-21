@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.all{
+    display: grid;
+}
+.home nav ul{
+   display: flex;
+   list-style-type: none;
+   gap: 10px;
+   font-size: 22px;
+    cursor: pointer;
+}
+.home{
+    background-color: brown;
+    height: 1000px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+ margin:50% ;
+}
+.services{
+    background-color: rgb(21, 115, 204);
+    height: 1000px;
+}
+.tours{
+    background-color: rgb(236, 169, 25);
+    height: 1000px;
+}
